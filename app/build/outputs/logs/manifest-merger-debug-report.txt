@@ -1,0 +1,494 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:4:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Anis\.android\build-cache\d5b7ff3d9e824ed573ed0975b7235e73dda1dbf5\output\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\Anis\.android\build-cache\50dee1b618d36198e5aed2010b09a00fab2839be\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Anis\.android\build-cache\0afa122cd35f09dac2f1226051893d4acebcc09e\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:10.0.1] C:\Users\Anis\.android\build-cache\2601582f9411dae0d186f015362cfaa366900004\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\Anis\.android\build-cache\46da397dbb061e388a5d2ba5f51fbede3e3a0eda\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\Anis\.android\build-cache\74f839ef7bbefcc2277afb1cd32c85e7837da04b\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Anis\.android\build-cache\9d69e8900037c53b089870df379cb3cee9c85a88\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Anis\.android\build-cache\08df324a287ea67d7d16ae001625ed2a3287f04d\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\Anis\.android\build-cache\805427788499f0f2421107e051949e3cfb46c4df\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Anis\.android\build-cache\24112012061f0f2d066b1be1d64e0c453e3285a2\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:5:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Anis\.android\build-cache\d5b7ff3d9e824ed573ed0975b7235e73dda1dbf5\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\Anis\.android\build-cache\50dee1b618d36198e5aed2010b09a00fab2839be\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:10.0.1] C:\Users\Anis\.android\build-cache\f211e8517d31f1d48a42c111988ab2e9b89390db\output\AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Anis\.android\build-cache\9d69e8900037c53b089870df379cb3cee9c85a88\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Anis\.android\build-cache\08df324a287ea67d7d16ae001625ed2a3287f04d\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\Anis\.android\build-cache\805427788499f0f2421107e051949e3cfb46c4df\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Anis\.android\build-cache\24112012061f0f2d066b1be1d64e0c453e3285a2\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:8:22-76
+application
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:10:5-39:19
+MERGED from [com.android.support:design:25.1.1] C:\Users\Anis\.android\build-cache\c656bd03756b69f520a061edb391c0d9ef550a97\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.1.1] C:\Users\Anis\.android\build-cache\e5a997b08a396e97052ae59bc871207a82111753\output\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services:10.0.1] C:\Users\Anis\.android\build-cache\4fc3a2f950b08997dd043ed01e483e2d79042eee\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Anis\.android\build-cache\d5b7ff3d9e824ed573ed0975b7235e73dda1dbf5\output\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\Anis\.android\build-cache\50dee1b618d36198e5aed2010b09a00fab2839be\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Anis\.android\build-cache\0afa122cd35f09dac2f1226051893d4acebcc09e\output\AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Anis\.android\build-cache\982fe61a4a643b118f0361a1d3a135f07f852c71\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\Anis\.android\build-cache\9ae8bdd6c5db529b91d5d2f9937f30c53c8d36e1\output\AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:10.0.1] C:\Users\Anis\.android\build-cache\99699ca03c1dc09bfaf60deb956bd7a87aad47d2\output\AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:24.0.0] C:\Users\Anis\.android\build-cache\a0dcd26f17041ee2b5db1014cf7895dd068e1f75\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\Anis\.android\build-cache\0659e9d3a908d0b6fb87101f0fc46844e4286820\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Anis\.android\build-cache\8695a9887670fabdecf2d3b987e0cbac8269ac8f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Anis\.android\build-cache\369588e8db03db43a1bdfd6fd3e30cc24a0de2f5\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Anis\.android\build-cache\020ef27986169e766af6ee24d459273ff6c9b0b6\output\AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] C:\Users\Anis\.android\build-cache\3b98a76ff1d554dde01b2206e6f6066df96c485c\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:10.0.1] C:\Users\Anis\.android\build-cache\39aa10192d6f07192bc4323e37fb0f94885c3ef5\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:10.0.1] C:\Users\Anis\.android\build-cache\916d689f81a4407a5d94d327b767b6d65d26dbd4\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:10.0.1] C:\Users\Anis\.android\build-cache\2601582f9411dae0d186f015362cfaa366900004\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\Anis\.android\build-cache\96122e7e770018354ad40e3e0d00d160fd75065a\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Anis\.android\build-cache\1b0cb5d5e146e7bc6e00a5e536645d6bd95c6893\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:10.0.1] C:\Users\Anis\.android\build-cache\561a7680424c9aa88b7bd5d1cf04d98bb1ab0f40\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:10.0.1] C:\Users\Anis\.android\build-cache\176235d393f60b9c061cd8a72bebc8ae813fdad3\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:10.0.1] C:\Users\Anis\.android\build-cache\723ef5a1ccbdb7a26f32333fc6d4d636990d96c1\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.0.1] C:\Users\Anis\.android\build-cache\c931ea080986ce24d45d0a0f743ad733f083776a\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\Anis\.android\build-cache\46da397dbb061e388a5d2ba5f51fbede3e3a0eda\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.0.1] C:\Users\Anis\.android\build-cache\2d0773a5dbe3cd77f58d2ba91f06f5013d32b4d9\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\Anis\.android\build-cache\74f839ef7bbefcc2277afb1cd32c85e7837da04b\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:10.0.1] C:\Users\Anis\.android\build-cache\8db577864f5abaa0534828e45dbb4d6090bb4614\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:10.0.1] C:\Users\Anis\.android\build-cache\f211e8517d31f1d48a42c111988ab2e9b89390db\output\AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:10.0.1] C:\Users\Anis\.android\build-cache\2bd295e3b832d1ae576304b177b3d5f714c56c99\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:10.0.1] C:\Users\Anis\.android\build-cache\c97be8944f508394abf6b9cbe01c2fb2660b7f00\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.0.1] C:\Users\Anis\.android\build-cache\57c9a79fda9f390bb4d5a6a00c937eff3bf4eb1a\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:10.0.1] C:\Users\Anis\.android\build-cache\f9de9fa140cce079a2f1570549c8a71390382ccc\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Anis\.android\build-cache\9d69e8900037c53b089870df379cb3cee9c85a88\output\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Anis\.android\build-cache\08df324a287ea67d7d16ae001625ed2a3287f04d\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Anis\.android\build-cache\5bb3e4875ed94a0b043318f9cb9431b84aaa2e29\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.0.1] C:\Users\Anis\.android\build-cache\af6efe98e96789bb97282f96ad01912b910e2ef6\output\AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\Anis\.android\build-cache\805427788499f0f2421107e051949e3cfb46c4df\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:10.0.1] C:\Users\Anis\.android\build-cache\20c12c02abbb392014d998458c1e060857776d1e\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:10.0.1] C:\Users\Anis\.android\build-cache\bcbd67ec088376d0e23a7d8262a5c212f3045ffb\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Anis\.android\build-cache\24112012061f0f2d066b1be1d64e0c453e3285a2\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-wearable:10.0.1] C:\Users\Anis\.android\build-cache\db6f3c841bdeb365a310646dfe40cb81363287bf\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Anis\.android\build-cache\8c9d41e89e293354964dfe3df1eaa5f8450ea683\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Anis\.android\build-cache\a124f08db4a8dc79a8625869497deb4e44a9da4f\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Anis\.android\build-cache\6942283309ede11617d88a5af9f58a96d5a71ca0\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Anis\.android\build-cache\f4fa9a279de26f970fe942e325d271ca993f3e53\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Anis\.android\build-cache\b41be086d731eff264ef40828fa6fedf6c75d880\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Anis\.android\build-cache\67b8b0a5434554e6eec8ed4a43f5603069a10ee9\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Anis\.android\build-cache\b2aaf0bc3ee39baedded6aa97c3cf909ebd04ffc\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Anis\.android\build-cache\8e3bde12e1d668718703c05d17894a3fc5ec2b01\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Anis\.android\build-cache\73ed62f0ed092f9e7445629322bd293004040ceb\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:13:9-32
+	android:supportsRtl
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:14:9-35
+	android:allowBackup
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:12:9-43
+	android:theme
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.example.boris.pjs4_61.MainActivity
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:16:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:20:27-74
+activity#com.example.boris.pjs4_61.InscriptionActivity
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:23:9-57
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:23:19-54
+activity#com.example.boris.pjs4_61.MurActivity
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:24:9-49
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:24:19-46
+activity#com.example.boris.pjs4_61.MurEmployeActivity
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:25:9-56
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:25:19-53
+activity#com.example.boris.pjs4_61.MurEmployeurActivity
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:26:9-58
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:26:19-55
+activity#com.example.boris.pjs4_61.MenuEmployeActivity
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:27:9-57
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:27:19-54
+activity#com.example.boris.pjs4_61.CreationAnnonceActivity
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:28:9-61
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:28:19-58
+activity#com.example.boris.pjs4_61.LesAnnoncesActivity
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:29:9-57
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:29:19-54
+activity#com.example.boris.pjs4_61.MenuEmployeurActivity
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:30:9-68
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:30:19-56
+activity#com.example.boris.pjs4_61.MonProfilActivity
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:31:9-55
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:31:19-52
+activity#com.example.boris.pjs4_61.ContratActivity
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:32:9-53
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:32:19-50
+activity#com.example.boris.pjs4_61.MesCandidaturesActivity
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:33:9-61
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:33:19-58
+activity#com.example.boris.pjs4_61.ConActivity
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:34:9-49
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:34:19-46
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:36:9-38:70
+	android:value
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:38:13-68
+	android:name
+		ADDED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml:37:13-58
+uses-sdk
+INJECTED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.1.1] C:\Users\Anis\.android\build-cache\c656bd03756b69f520a061edb391c0d9ef550a97\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.1.1] C:\Users\Anis\.android\build-cache\8e2f66e7579dd2b79f7ba6be30cf04aba9e4457d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.1.1] C:\Users\Anis\.android\build-cache\e5a997b08a396e97052ae59bc871207a82111753\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services:10.0.1] C:\Users\Anis\.android\build-cache\4fc3a2f950b08997dd043ed01e483e2d79042eee\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-ads:10.0.1] C:\Users\Anis\.android\build-cache\6767e30ba8dec8cbfe310b68e7492f9ff7d5ff93\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Anis\.android\build-cache\d5b7ff3d9e824ed573ed0975b7235e73dda1dbf5\output\AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\Anis\.android\build-cache\50dee1b618d36198e5aed2010b09a00fab2839be\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Anis\.android\build-cache\0afa122cd35f09dac2f1226051893d4acebcc09e\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Anis\.android\build-cache\982fe61a4a643b118f0361a1d3a135f07f852c71\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:10.0.1] C:\Users\Anis\.android\build-cache\17484b6022a317caac98a183bfa0240ed5d42e78\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\Anis\.android\build-cache\9ae8bdd6c5db529b91d5d2f9937f30c53c8d36e1\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-cast:10.0.1] C:\Users\Anis\.android\build-cache\99699ca03c1dc09bfaf60deb956bd7a87aad47d2\output\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:mediarouter-v7:24.0.0] C:\Users\Anis\.android\build-cache\a0dcd26f17041ee2b5db1014cf7895dd068e1f75\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\Anis\.android\build-cache\0659e9d3a908d0b6fb87101f0fc46844e4286820\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Anis\.android\build-cache\8695a9887670fabdecf2d3b987e0cbac8269ac8f\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Anis\.android\build-cache\369588e8db03db43a1bdfd6fd3e30cc24a0de2f5\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Anis\.android\build-cache\020ef27986169e766af6ee24d459273ff6c9b0b6\output\AndroidManifest.xml:21:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] C:\Users\Anis\.android\build-cache\3b98a76ff1d554dde01b2206e6f6066df96c485c\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-config:10.0.1] C:\Users\Anis\.android\build-cache\39aa10192d6f07192bc4323e37fb0f94885c3ef5\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-awareness:10.0.1] C:\Users\Anis\.android\build-cache\916d689f81a4407a5d94d327b767b6d65d26dbd4\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-crash:10.0.1] C:\Users\Anis\.android\build-cache\2601582f9411dae0d186f015362cfaa366900004\output\AndroidManifest.xml:20:5-42
+MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\Anis\.android\build-cache\96122e7e770018354ad40e3e0d00d160fd75065a\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-database:10.0.1] C:\Users\Anis\.android\build-cache\92886112c9e4e5efa6f648f8cb5ec08dbd015b5b\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:10.0.1] C:\Users\Anis\.android\build-cache\905144af75753553140a03262b9f8ab57c85af73\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Anis\.android\build-cache\1b0cb5d5e146e7bc6e00a5e536645d6bd95c6893\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-storage:10.0.1] C:\Users\Anis\.android\build-cache\6c1af4cc1ce7b1c9066b137e58687dd724053336\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage-common:10.0.1] C:\Users\Anis\.android\build-cache\09188a1960d753e73c7d8c62dfaa66f647a7a3cc\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-fitness:10.0.1] C:\Users\Anis\.android\build-cache\561a7680424c9aa88b7bd5d1cf04d98bb1ab0f40\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-games:10.0.1] C:\Users\Anis\.android\build-cache\176235d393f60b9c061cd8a72bebc8ae813fdad3\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-drive:10.0.1] C:\Users\Anis\.android\build-cache\723ef5a1ccbdb7a26f32333fc6d4d636990d96c1\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gass:10.0.1] C:\Users\Anis\.android\build-cache\c931ea080986ce24d45d0a0f743ad733f083776a\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\Anis\.android\build-cache\46da397dbb061e388a5d2ba5f51fbede3e3a0eda\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-appindexing:10.0.1] C:\Users\Anis\.android\build-cache\2d0773a5dbe3cd77f58d2ba91f06f5013d32b4d9\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\Anis\.android\build-cache\74f839ef7bbefcc2277afb1cd32c85e7837da04b\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-instantapps:10.0.1] C:\Users\Anis\.android\build-cache\28cbe57995136e30c54a3214bb8b87fd677a5d9c\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-location:10.0.1] C:\Users\Anis\.android\build-cache\8db577864f5abaa0534828e45dbb4d6090bb4614\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-nearby:10.0.1] C:\Users\Anis\.android\build-cache\f211e8517d31f1d48a42c111988ab2e9b89390db\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-panorama:10.0.1] C:\Users\Anis\.android\build-cache\2bd295e3b832d1ae576304b177b3d5f714c56c99\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-places:10.0.1] C:\Users\Anis\.android\build-cache\c97be8944f508394abf6b9cbe01c2fb2660b7f00\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-plus:10.0.1] C:\Users\Anis\.android\build-cache\57c9a79fda9f390bb4d5a6a00c937eff3bf4eb1a\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:10.0.1] C:\Users\Anis\.android\build-cache\f9de9fa140cce079a2f1570549c8a71390382ccc\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:10.0.1] C:\Users\Anis\.android\build-cache\36f60e91c9a1e3872c11b9f57b781501eef0878c\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Anis\.android\build-cache\9d69e8900037c53b089870df379cb3cee9c85a88\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Anis\.android\build-cache\08df324a287ea67d7d16ae001625ed2a3287f04d\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Anis\.android\build-cache\5bb3e4875ed94a0b043318f9cb9431b84aaa2e29\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.0.1] C:\Users\Anis\.android\build-cache\af6efe98e96789bb97282f96ad01912b910e2ef6\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\Anis\.android\build-cache\805427788499f0f2421107e051949e3cfb46c4df\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-vision:10.0.1] C:\Users\Anis\.android\build-cache\20c12c02abbb392014d998458c1e060857776d1e\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-wallet:10.0.1] C:\Users\Anis\.android\build-cache\390255f9391f921ccfaa3a87b522314f5286b5e1\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:10.0.1] C:\Users\Anis\.android\build-cache\bcbd67ec088376d0e23a7d8262a5c212f3045ffb\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Anis\.android\build-cache\24112012061f0f2d066b1be1d64e0c453e3285a2\output\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-wearable:10.0.1] C:\Users\Anis\.android\build-cache\db6f3c841bdeb365a310646dfe40cb81363287bf\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Anis\.android\build-cache\8c9d41e89e293354964dfe3df1eaa5f8450ea683\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Anis\.android\build-cache\a124f08db4a8dc79a8625869497deb4e44a9da4f\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Anis\.android\build-cache\6942283309ede11617d88a5af9f58a96d5a71ca0\output\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Anis\.android\build-cache\f4fa9a279de26f970fe942e325d271ca993f3e53\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Anis\.android\build-cache\b41be086d731eff264ef40828fa6fedf6c75d880\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Anis\.android\build-cache\67b8b0a5434554e6eec8ed4a43f5603069a10ee9\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Anis\.android\build-cache\b2aaf0bc3ee39baedded6aa97c3cf909ebd04ffc\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Anis\.android\build-cache\8e3bde12e1d668718703c05d17894a3fc5ec2b01\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Anis\.android\build-cache\73ed62f0ed092f9e7445629322bd293004040ceb\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.1.1] C:\Users\Anis\.android\build-cache\c656bd03756b69f520a061edb391c0d9ef550a97\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Anis\Desktop\true\PJS4_VersionHugoL\PJS4\PJS4_6.12\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Anis\.android\build-cache\d5b7ff3d9e824ed573ed0975b7235e73dda1dbf5\output\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Anis\.android\build-cache\d5b7ff3d9e824ed573ed0975b7235e73dda1dbf5\output\AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Anis\.android\build-cache\d5b7ff3d9e824ed573ed0975b7235e73dda1dbf5\output\AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Anis\.android\build-cache\d5b7ff3d9e824ed573ed0975b7235e73dda1dbf5\output\AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Anis\.android\build-cache\d5b7ff3d9e824ed573ed0975b7235e73dda1dbf5\output\AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Anis\.android\build-cache\d5b7ff3d9e824ed573ed0975b7235e73dda1dbf5\output\AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Anis\.android\build-cache\d5b7ff3d9e824ed573ed0975b7235e73dda1dbf5\output\AndroidManifest.xml:26:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\Anis\.android\build-cache\50dee1b618d36198e5aed2010b09a00fab2839be\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Anis\.android\build-cache\08df324a287ea67d7d16ae001625ed2a3287f04d\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\Anis\.android\build-cache\805427788499f0f2421107e051949e3cfb46c4df\output\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\Anis\.android\build-cache\50dee1b618d36198e5aed2010b09a00fab2839be\output\AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Anis\.android\build-cache\0afa122cd35f09dac2f1226051893d4acebcc09e\output\AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Anis\.android\build-cache\0afa122cd35f09dac2f1226051893d4acebcc09e\output\AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Anis\.android\build-cache\0afa122cd35f09dac2f1226051893d4acebcc09e\output\AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Anis\.android\build-cache\0afa122cd35f09dac2f1226051893d4acebcc09e\output\AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Anis\.android\build-cache\0afa122cd35f09dac2f1226051893d4acebcc09e\output\AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Anis\.android\build-cache\0afa122cd35f09dac2f1226051893d4acebcc09e\output\AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Anis\.android\build-cache\0afa122cd35f09dac2f1226051893d4acebcc09e\output\AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Anis\.android\build-cache\0afa122cd35f09dac2f1226051893d4acebcc09e\output\AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Anis\.android\build-cache\0afa122cd35f09dac2f1226051893d4acebcc09e\output\AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Anis\.android\build-cache\982fe61a4a643b118f0361a1d3a135f07f852c71\output\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Anis\.android\build-cache\982fe61a4a643b118f0361a1d3a135f07f852c71\output\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Anis\.android\build-cache\982fe61a4a643b118f0361a1d3a135f07f852c71\output\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Anis\.android\build-cache\982fe61a4a643b118f0361a1d3a135f07f852c71\output\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Anis\.android\build-cache\982fe61a4a643b118f0361a1d3a135f07f852c71\output\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Anis\.android\build-cache\982fe61a4a643b118f0361a1d3a135f07f852c71\output\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Anis\.android\build-cache\982fe61a4a643b118f0361a1d3a135f07f852c71\output\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Anis\.android\build-cache\982fe61a4a643b118f0361a1d3a135f07f852c71\output\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Anis\.android\build-cache\982fe61a4a643b118f0361a1d3a135f07f852c71\output\AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\Anis\.android\build-cache\9ae8bdd6c5db529b91d5d2f9937f30c53c8d36e1\output\AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\Anis\.android\build-cache\9ae8bdd6c5db529b91d5d2f9937f30c53c8d36e1\output\AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\Anis\.android\build-cache\9ae8bdd6c5db529b91d5d2f9937f30c53c8d36e1\output\AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\Anis\.android\build-cache\9ae8bdd6c5db529b91d5d2f9937f30c53c8d36e1\output\AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\Anis\.android\build-cache\9ae8bdd6c5db529b91d5d2f9937f30c53c8d36e1\output\AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\Anis\.android\build-cache\9ae8bdd6c5db529b91d5d2f9937f30c53c8d36e1\output\AndroidManifest.xml:7:18-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Anis\.android\build-cache\1b0cb5d5e146e7bc6e00a5e536645d6bd95c6893\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Anis\.android\build-cache\1b0cb5d5e146e7bc6e00a5e536645d6bd95c6893\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Anis\.android\build-cache\1b0cb5d5e146e7bc6e00a5e536645d6bd95c6893\output\AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Anis\.android\build-cache\1b0cb5d5e146e7bc6e00a5e536645d6bd95c6893\output\AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Anis\.android\build-cache\1b0cb5d5e146e7bc6e00a5e536645d6bd95c6893\output\AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Anis\.android\build-cache\1b0cb5d5e146e7bc6e00a5e536645d6bd95c6893\output\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Anis\.android\build-cache\1b0cb5d5e146e7bc6e00a5e536645d6bd95c6893\output\AndroidManifest.xml:25:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\Anis\.android\build-cache\46da397dbb061e388a5d2ba5f51fbede3e3a0eda\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\Anis\.android\build-cache\74f839ef7bbefcc2277afb1cd32c85e7837da04b\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\Anis\.android\build-cache\46da397dbb061e388a5d2ba5f51fbede3e3a0eda\output\AndroidManifest.xml:20:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Anis\.android\build-cache\9d69e8900037c53b089870df379cb3cee9c85a88\output\AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Anis\.android\build-cache\9d69e8900037c53b089870df379cb3cee9c85a88\output\AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Anis\.android\build-cache\9d69e8900037c53b089870df379cb3cee9c85a88\output\AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Anis\.android\build-cache\9d69e8900037c53b089870df379cb3cee9c85a88\output\AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Anis\.android\build-cache\9d69e8900037c53b089870df379cb3cee9c85a88\output\AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Anis\.android\build-cache\9d69e8900037c53b089870df379cb3cee9c85a88\output\AndroidManifest.xml:25:94-118
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Anis\.android\build-cache\9d69e8900037c53b089870df379cb3cee9c85a88\output\AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Anis\.android\build-cache\9d69e8900037c53b089870df379cb3cee9c85a88\output\AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Anis\.android\build-cache\9d69e8900037c53b089870df379cb3cee9c85a88\output\AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Anis\.android\build-cache\9d69e8900037c53b089870df379cb3cee9c85a88\output\AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Anis\.android\build-cache\9d69e8900037c53b089870df379cb3cee9c85a88\output\AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Anis\.android\build-cache\9d69e8900037c53b089870df379cb3cee9c85a88\output\AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Anis\.android\build-cache\9d69e8900037c53b089870df379cb3cee9c85a88\output\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Anis\.android\build-cache\9d69e8900037c53b089870df379cb3cee9c85a88\output\AndroidManifest.xml:30:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Anis\.android\build-cache\08df324a287ea67d7d16ae001625ed2a3287f04d\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Anis\.android\build-cache\08df324a287ea67d7d16ae001625ed2a3287f04d\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Anis\.android\build-cache\a008ab764af48713b8a972042544eaa9e7c4b2aa\output\AndroidManifest.xml:32:16-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Anis\.android\build-cache\1437ff4b5ad2139f139368bedbf2405e653c7e7f\output\AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Anis\.android\build-cache\5bb3e4875ed94a0b043318f9cb9431b84aaa2e29\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Anis\.android\build-cache\5bb3e4875ed94a0b043318f9cb9431b84aaa2e29\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Anis\.android\build-cache\5bb3e4875ed94a0b043318f9cb9431b84aaa2e29\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Anis\.android\build-cache\5bb3e4875ed94a0b043318f9cb9431b84aaa2e29\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Anis\.android\build-cache\5bb3e4875ed94a0b043318f9cb9431b84aaa2e29\output\AndroidManifest.xml:6:79-143
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Anis\.android\build-cache\24112012061f0f2d066b1be1d64e0c453e3285a2\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Anis\.android\build-cache\24112012061f0f2d066b1be1d64e0c453e3285a2\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Anis\.android\build-cache\24112012061f0f2d066b1be1d64e0c453e3285a2\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Anis\.android\build-cache\8c9d41e89e293354964dfe3df1eaa5f8450ea683\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Anis\.android\build-cache\8c9d41e89e293354964dfe3df1eaa5f8450ea683\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Anis\.android\build-cache\8c9d41e89e293354964dfe3df1eaa5f8450ea683\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Anis\.android\build-cache\8c9d41e89e293354964dfe3df1eaa5f8450ea683\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Anis\.android\build-cache\6942283309ede11617d88a5af9f58a96d5a71ca0\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Anis\.android\build-cache\6942283309ede11617d88a5af9f58a96d5a71ca0\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Anis\.android\build-cache\6942283309ede11617d88a5af9f58a96d5a71ca0\output\AndroidManifest.xml:20:20-65

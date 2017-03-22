@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.boris.pjs4_61">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Jobapic"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InscriptionActivity" />
+        <activity android:name=".MurActivity" />
+        <activity android:name=".MurEmployeActivity" />
+        <activity android:name=".MurEmployeurActivity" />
+        <activity android:name=".MenuEmployeActivity" />
+        <activity android:name=".CreationAnnonceActivity" />
+        <activity android:name=".LesAnnoncesActivity" />
+        <activity android:name=".MenuEmployeurActivity"></activity>
+        <activity android:name=".MonProfilActivity" />
+        <activity android:name=".ContratActivity" />
+        <activity android:name=".MesCandidaturesActivity" />
+        <activity android:name=".ConActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBvZkT-3B31k2M3hXJHmeUhLoy5osT6rak"/>
+    </application>
+
+</manifest>

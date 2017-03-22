@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView29"
+        android:layout_gravity="right"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="561dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="95dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Mon annonce"
+        android:id="@+id/textView27"
+        android:layout_marginStart="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Catégorie : "
+        android:id="@+id/textView32"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/textView29"
+        android:layout_alignStart="@+id/textView31" />
+
+    <EditText
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText9"
+        android:layout_below="@+id/textView27"
+        android:layout_alignStart="@+id/editText10" />
+
+    <EditText
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText10"
+        android:layout_above="@+id/textView32"
+        android:layout_toEndOf="@+id/textView31"
+        android:layout_marginStart="34dp" />
+
+    <EditText
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText11"
+        android:layout_above="@+id/textView31"
+        android:layout_alignStart="@+id/editText10" />
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="120dp"
+        android:id="@+id/editText12"
+        android:layout_below="@+id/textView33"
+        android:layout_alignEnd="@+id/imageButton" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Envoyer"
+        android:id="@+id/buttonValiderAnnonce"
+        android:layout_below="@+id/textView35"
+        android:layout_alignEnd="@+id/editText12" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/editText18"
+        android:layout_above="@+id/editText10"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Adresse de l&apos;annonce"
+        android:id="@+id/textView31"
+        android:layout_below="@+id/textView30"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Intitulé annonce"
+        android:id="@+id/textView28"
+        android:layout_above="@+id/textView30"
+        android:layout_alignStart="@+id/textView33" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Date de l&apos;annonce"
+        android:id="@+id/textView30"
+        android:layout_below="@+id/editText9"
+        android:layout_alignStart="@+id/textView28" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/editText8"
+        android:layout_alignBaseline="@+id/textView30"
+        android:layout_alignBottom="@+id/textView30"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/editText19"
+        android:layout_alignBaseline="@+id/editText10"
+        android:layout_alignBottom="@+id/editText10"
+        android:layout_toEndOf="@+id/textView31" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/textView32"
+        android:layout_alignStart="@+id/buttonValiderAnn"
+        android:layout_above="@+id/textView33" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Description de l&apos;annonce :"
+        android:id="@+id/textView33"
+        android:layout_below="@+id/textView32"
+        android:layout_alignStart="@+id/textView32"
+        android:layout_marginTop="114dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="J&apos;accepte les termes et les annonces"
+        android:id="@+id/textView35"
+        android:layout_below="@+id/textView34"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Récompense :"
+        android:id="@+id/textView34"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/editText12"
+        android:layout_alignStart="@+id/textView33" />
+
+    <EditText
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText13"
+        android:layout_above="@+id/textView35"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/checkBoxTerme"
+        android:layout_alignBaseline="@+id/textView35"
+        android:layout_alignBottom="@+id/textView35"
+        android:layout_alignStart="@+id/textView34" />
+
+</RelativeLayout>

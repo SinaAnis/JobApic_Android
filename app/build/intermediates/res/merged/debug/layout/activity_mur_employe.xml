@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/beige"
+    tools:context="com.example.boris.pjs4_61.MurEmployeActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            app:srcCompat="@color/blanc" />
+
+
+        <ImageButton
+            android:id="@+id/buttonMur"
+            android:layout_width="115dp"
+            android:layout_height="112dp"
+            android:background="@null"
+            app:srcCompat="@drawable/menu" />
+
+        <Button
+            android:id="@+id/buttonEmployeur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:text="Employeur" />
+
+        <Button
+            android:id="@+id/buttonEmploye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:text="Employé" />
+
+    </FrameLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
